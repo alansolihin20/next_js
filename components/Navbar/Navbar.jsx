@@ -37,19 +37,13 @@ export default function Navbar() {
             <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'}`}>
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="text-black hover:text-blue-600 transition">
-                  <Link href="/">
-                    <p>HOME</p>
-                  </Link>
+                  <Link href="/">HOME</Link>
                 </li>
                 <li className="text-black hover:text-blue-600 transition ">
-                  <Link href="/about" className="">
-                    <p>ABOUT</p>
-                  </Link>
+                  <Link href="/abouts">ABOUT</Link>
                 </li>
                 <li className="text-black hover:text-blue-600 ">
-                  <Link href="/blogs">
-                    <p>BLOGS</p>
-                  </Link>
+                  <Link href="/blogs">BLOGS</Link>
                 </li>
               </ul>
             </div>

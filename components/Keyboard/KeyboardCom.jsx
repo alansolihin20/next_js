@@ -10,11 +10,11 @@ const KeyboardCom = () => {
       </div>
       <div className="flex flex-row items-center justify-center gap-20 max-md:flex-col p-5 w-full">
         <div className="flex flex-col">
-          <Image src={KEY1} width={500}></Image>
+          <Image alt="key" src={KEY1} width={500}></Image>
           <p className="text-slate-400 text-sm mt-2">Keyboard by Sakuna</p>
         </div>
         <div className="flex flex-col">
-          <Image src={KEY3} width={500}></Image>
+          <Image alt="key" src={KEY3} width={500}></Image>
           <p className="text-slate-400 text-sm mt-2">Keyboard by Sakuna</p>
         </div>
       </div>
@@ -25,7 +25,7 @@ const KeyboardCom = () => {
 
       <div className="mt-20 flex justify-center items-center gap-20 flex-row w-full max-md:gap-0 max-md:flex-col ">
         <div className="flex flex-col gap-5 max-md:p-5">
-          <Image src={KEYGIF} width={600}></Image>
+          <Image alt="key3" src={KEYGIF} width={600}></Image>
           <p className="text-slate-400 text-sm ">Gif</p>
         </div>
 
@@ -46,7 +46,7 @@ const KeyboardCom = () => {
       </div>
 
       <div className="flex flex-col gap-5 max-md:p-5">
-        <Image src={KEY2}></Image>
+        <Image alt="key2" src={KEY2}></Image>
         <p className="text-sm text-slate-400">Keyboard by Dons</p>
       </div>
     </div>

@@ -19,7 +19,7 @@ const About = () => {
           className="img"
         >
           <div className="relative group max-md:w-full">
-            <Image src={Alan} width={500} className="w-full rounded-sm"></Image>
+            <Image alt="dons" src={Alan} width={500} className="w-full rounded-sm"></Image>
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex  justify-center items-center  opacity-0 hover:opacity-100 w-full h-full bg-gradient-to-t from-gray-700 via-gray-700 to-opacity-30 group-hover:opacity-50 transition">
               <div className="flex flex-col items-center justify-center  text-gray-50 ">
                 <p className="text-xl">DONSS</p>

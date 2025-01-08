@@ -12,7 +12,7 @@ const CodeCom = () => {
       </div>
       <div className=" w-1/2 flex flex-col gap-20 ">
         <div className="flex flex-col gap-5  justify-evenly items-center ">
-          <Image src={CODE2} width={400}></Image>
+          <Image alt="con" src={CODE2} width={400}></Image>
           <h1 className="text-lg font-bold">React Code</h1>
           <p className="text-sm text-center leading-loose">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eaque animi quos quibusdam sapiente? Minus consectetur officia, voluptas facere doloribus vero expedita magni at aut incidunt eos qui quis architecto hic corporis
@@ -21,7 +21,7 @@ const CodeCom = () => {
         </div>
 
         <div className="flex flex-row gap-10 items-center justify-center   max-xl:flex-col ">
-          <Image src={CODE3} className="max-xl:item-center" width={400}></Image>
+          <Image alt="code" src={CODE3} className="max-xl:item-center" width={400}></Image>
           <div className="flex flex-col gap-5">
             <h1 className="font-bold text-lg max-xl:text-center">Python Code</h1>
             <p className="text-sm leading-loose max-xl:text-center">
@@ -31,7 +31,7 @@ const CodeCom = () => {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <Image src={CODE1} width={500}></Image>
+          <Image src={CODE1} alt="code2" width={500}></Image>
         </div>
       </div>
     </div>

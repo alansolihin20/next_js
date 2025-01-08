@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Image from 'next/image';
+
 import '../styles/input.css';
 import Navbar from '../components/Navbar/Navbar';
 import Blogs from '../components/Blogs/Blogs';

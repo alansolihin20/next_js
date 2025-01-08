@@ -11,11 +11,11 @@ const Wallpaper = () => {
       </div>
       <div className="flex flex-col justify-center items-center gap-52 w-full  ">
         <div className="flex gap-10 flex-row  items-center justify-evenly max-md:flex-col w-full">
-          <Image src={WALL3} className="max-lg:p-5" width={400}></Image>
+          <Image alt="wal1" src={WALL3} className="max-lg:p-5" width={400}></Image>
           <p className="text-xl italic">Lorem ipsum dolor sit amet.</p>
         </div>
         <div className="flex gap-10 flex-row-reverse  items-center justify-evenly max-md:flex-col w-full">
-          <Image src={WALL2} className="max-lg:p-5" width={400}></Image>
+          <Image alt="wal2" src={WALL2} className="max-lg:p-5" width={400}></Image>
           <p className="text-xl italic">Lorem ipsum dolor sit amet consectetur.</p>
         </div>
       </div>
@@ -26,11 +26,11 @@ const Wallpaper = () => {
       </div>
 
       <div className="flex flex-col gap-3 max-lg:p-5">
-        <Image src={WALLGIF2}></Image>
+        <Image alt="wal3" src={WALLGIF2}></Image>
         <p className="text-end text-sm text-slate-500 italic">Gif 2023 from Pinterest</p>
       </div>
       <div className="flex flex-col gap-3 max-lg:p-5">
-        <Image src={WALLGIF1}></Image>
+        <Image alt="wal4" src={WALLGIF1}></Image>
         <p className="text-end text-sm text-slate-500 italic">Gif 2023 from Pinterest</p>
       </div>
     </div>
